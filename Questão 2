@@ -1,0 +1,33 @@
+public class Main {
+  public static void main(String[] args) {
+  	int numero_input = 36;
+   	int valor1 = 1;
+    int valor2 = 0;
+    int valor3 = 0;
+    boolean sequencia = false;
+    
+    while (valor3 < numero_input) {
+    	valor1 = valor1 + valor2;
+        valor2 = valor1 - valor2;   
+        valor3 = valor1 + valor2;
+    
+        if(valor3 == numero_input) {
+            sequencia = true;
+
+        } else {
+
+            sequencia = false;
+
+        }
+
+      }
+
+    if(sequencia == true) { 
+      		System.out.println("O número está na sequência de Fibonacci.");
+     
+	   } else {  
+        	System.out.println("O número NÃO está na sequência de Fibonacci.");
+
+		}
+   }
+}
