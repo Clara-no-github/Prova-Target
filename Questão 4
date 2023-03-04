@@ -1,9 +1,9 @@
 public class Main {
   public static void main(String[] args) {
-	  float SP = 6783643;
+    float SP = 6783643;
     float RJ = 3667866;
-	  float MG = 2922988;
-	  float ES = 2716548;
+    float MG = 2922988;
+    float ES = 2716548;
     float outros = 1984953;
     float total = SP + RJ + MG + ES + outros;
     
