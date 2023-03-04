@@ -1,0 +1,21 @@
+public class Main {
+  public static void main(String[] args) {
+	  float SP = 6783643;
+    float RJ = 3667866;
+	  float MG = 2922988;
+	  float ES = 2716548;
+    float outros = 1984953;
+    float total = SP + RJ + MG + ES + outros;
+    
+    float spRep = (SP*100/total);
+    float rjRep = (RJ*100/total);
+    float mgRep = (MG*100/total);
+    float esRep = (ES*100/total);
+    float outrosRep = (outros*100/total);
+    
+    //a questão apenas pede que calcule e não mostre, vou colocar apenas São Paulo de exemplo. As variáveis podem ser substituidas por qualquer uma das outras de suas respectivas categorias que vai funcionar
+    
+    System.out.println("O valor de SP foi: " + SP + " e seu valor de representação foi de: " + spRep + "%.");
+   
+	}
+}
