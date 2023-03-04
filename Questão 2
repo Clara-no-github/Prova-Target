@@ -1,7 +1,7 @@
 public class Main {
   public static void main(String[] args) {
-  	int numero_input = 36;
-   	int valor1 = 1;
+    int numero_input = 36;
+    int valor1 = 1;
     int valor2 = 0;
     int valor3 = 0;
     boolean sequencia = false;
