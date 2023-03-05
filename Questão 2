@@ -1,11 +1,12 @@
 public class Main {
   public static void main(String[] args) {
-    int numero_input = 36;
-    int valor1 = 1;
+    int numero_input = 36; //número que não é da sequência
+    int valor1 = 1; 
     int valor2 = 0;
-    int valor3 = 0;
-    boolean sequencia = false;
+    int valor3 = 0; //valor resultado da soma dos dois valores, seguindo a lógica do programa, sempre vai ser um número da sequencia de fibonacci
+    boolean sequencia = false; //te diz se é da sequência ou não, nesse caso não é
     
+    //enquanto o valor3 for menor que o número escolhido...
     while (valor3 < numero_input) {
     	valor1 = valor1 + valor2;
         valor2 = valor1 - valor2;   
