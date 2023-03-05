@@ -2,7 +2,7 @@ public class Main {
   public static void main(String[] args) {
     String teste = "teste?!@";
     
-    //usando substrings para nao usar métodos prontos nem variaveis temporarias
+    //usando substrings para nao usar métodos prontos, como pedido na questão, nem variaveis temporarias
     for (int i = 0; i < teste.length(); i++) {
         teste = teste.substring(1, teste.length() - i)  + teste.substring(0, 1)  + teste.substring(teste.length() - i, teste.length());
         
